@@ -5,7 +5,7 @@ Selenium is utilized by navigating to the website islamicfinder.org and copies t
 
 The formatted prayer times along with some additional information is sent in an email to a recipient of your choosing. 
 
-The script requires that you authenticate the sender address, this requires the sender email address to have it's security settings adjusted accordingly and it is recommended that 2FA or MFA is not enabled. In this case it is best to use a throwaway email as a sender.
+The script requires that you authenticate the sender address, this requires the sender email address to have it's security settings adjusted accordingly (in gmail you allow less secure apps) and it is recommended that 2FA or MFA is not enabled. In this case it is best to use a throwaway email as a sender. DO NOT USE A PERSONAL/PROFESSIONAL EMAIL FOR SECURITY REASONS.
 
 NOTE: Make sure you have selenium and the appropriate driver installed for whicheever browser you want selenium to use. you can find all the installation and setup info here: https://pypi.org/project/selenium/
 
